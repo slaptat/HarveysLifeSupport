@@ -1,8 +1,6 @@
 # Feature: Make the cat feel unloved.
-import random
-
 catinsults = ['You pink bitch',
-                   'Ole Thundercats reject. MOre like thunderthighs',
+                   'DOle Thundercats reject. MOre like thunderthighs',
                    'Honestly. Youre a disapointment.',
                    'I hope that food tastes like sadness.',
                    'Nobody likes you, they just tolerate you.',
@@ -29,6 +27,8 @@ catinsults = ['You pink bitch',
                    'I didn\'t know it was possible for cats to suck at life but here we are........incredible.',
                    'The ocean called, they said they\'re running out of shrimp',
                    'The jerk store called, they said they\'re running out of you.',
+                   'You fat fuck.',
+                   'Big pink bitch cant even open a can of tuna you stupid',
+                   'You know how your fur is everywhere? Well I put pubes in here.'
                    ]
 # Thank you FartCopter!
-
