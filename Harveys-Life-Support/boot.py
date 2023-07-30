@@ -9,7 +9,7 @@ x = 0
 if not sta_if.isconnected():
     print('connecting to network...')
     sta_if.active(True)
-    sta_if.connect("__Hell_Hole__", "1Ky9An9Re0")
+    sta_if.connect("<SSID>", "<pass>")
     while not sta_if.isconnected():
         x += 1
         pass
