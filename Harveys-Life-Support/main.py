@@ -129,7 +129,7 @@ def eats():
     oled.fill(0), oled.show()
 
 def feedme():
-    flap.move(108), time.sleep(0.3), flap.move(150)
+    flap.move(108), time.sleep(0.27), flap.move(150)
     oled.fill(0), oled.show()
     time.sleep(2), scroll_screen_in_out(catdid)
     oled.fill(0), oled.show()
@@ -191,9 +191,9 @@ while True:
        
     oled.text(feed, 96, 0), oled.show()
     # Breakfast 11ish
-    if feed == '1030':
+    if feed == '930':
         feedme()
-    elif feed == '1130':
+    elif feed == '1230':
         feedme()    
     # Lunch 17ish
     elif feed == '1620': 
@@ -207,3 +207,6 @@ while True:
         feedme()
     time.sleep(30)
     yawns()
+
+    # TODO: NARROW: remote login, web interface, interactive insulting, maybe camera, maybe web-enabled 
+    # treats or something. MEDIUM: app for kylie? could probably easily do this tbh 
