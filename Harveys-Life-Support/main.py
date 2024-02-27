@@ -200,11 +200,11 @@ while True:
         oled.fill(0), oled.show(), oled.text('Dabtime', 0, 45), oled.show(), time.sleep(3)
         oled.fill(0), oled.show()
         feedme()
-    elif feed == '2030':
+    elif feed == '2130':
         feedme()
     # Dinner
-    elif feed == '2230':
-        feedme()
+    #elif feed == '2230':
+        #feedme()
     time.sleep(30)
     yawns()
 
