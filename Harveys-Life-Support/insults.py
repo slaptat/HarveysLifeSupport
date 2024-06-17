@@ -29,6 +29,6 @@ catinsults = ['You pink bitch',
                    'The jerk store called, they said they\'re running out of you.',
                    'You fat fuck.',
                    'Big pink bitch cant even open a can of tuna you stupid',
-                   'You know how your fur is everywhere? Well I put pubes in here.'
+                   
                    ]
 # Thank you FartCopter!
